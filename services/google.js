@@ -1,7 +1,5 @@
 const { google } = require('googleapis');
 
-// Each API may support multiple version. With this sample, we're getting
-// v3 of the blogger API, and using an API key to authenticate.
 const youtube = google.youtube({
   version: 'v3',
   auth: process.env.YOUTUBE_API_KEY
